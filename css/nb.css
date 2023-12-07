@@ -1,0 +1,49 @@
+
+#mainNav{
+    color: blue;
+    text-align: center;
+}
+aside h1{
+    color: brown;
+    text-align: left;
+}
+#mainHeader, #mainFooter{
+    background-color: red;
+}
+#mainHeader{
+display: grid;
+grid-template-columns: 80px 1fr 40px;
+
+}
+main{
+    background-color: darkgrey ;
+}
+#mainnav a{
+    color: rgba;
+    font-weight: normal;
+    font-style: italic;
+}
+#mainnav a:hover{
+    color: whitesmoke;
+}
+#mainnav a:active{
+    color: yellow;
+}
+#menutoggle{
+    width: 40px;
+    height: 40px;S
+    background-color: transparent;
+    border: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+#pagecontent{
+    background: url(/images/image-1.jpg) center center / cover no-repeat fixed;
+}
+
+#logoimg{
+    width: 80px;
+    position: relative;
+}

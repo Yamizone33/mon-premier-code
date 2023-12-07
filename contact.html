@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>le monde en noir &amp; blanc </title>
+        <link rel="stylesheet" href="/css/normalize.css"/>  
+        <link rel="stylesheet" href="/css/nb.css"/>
+    </head>
+    <body>
+        <header id="mainHeader">
+            <img src="/images/layout/nb_logo.svg" alt="logo N&B" id="logoimg">
+            <h1> le monde en noir &amp;blanc</h1>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="galleries.html">Galeries</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <button id="menutoggle"><img src="/images/layout/hamburger.svg" alt="ouvrir/fermer"></button>
+        </header>
+        <main id="pageContent" class="contact">
+            <h1>contactez-nous</h1>
+            <p>merci de compléter le formulaire pour nous contacter. tous les champs de ce formulaire sont requis</p>
+            <h1>merci</h1>
+            <form id="frmContact" action="merci.html">
+                <div>
+                    <div>
+                        <label form="fname">Prénom</label> 
+                        <input type="text" name="fname" id="fname" required>
+                   </div>
+                   <div>
+                        <label form="lname">Nom de famille</label> 
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                    <div>
+                        <label form="email">votre e-mail</label> 
+                        <input type="email" name="email" id="email" required>
+                    </div>                              
+                </div>
+                <div>
+                    <label form="message">votre message</label> 
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+                <button type="submit">envoyer</button>
+            </form>
+         </main><!--ici se termine pagecontent-->
+        <footer id="mainFooter">        
+            <p>&copy; copyright<strong> HAMAHMI - 2023</strong> </p>
+        </footer><!--ici se termine mainfooter-->
+    </body>
+
+</html>
